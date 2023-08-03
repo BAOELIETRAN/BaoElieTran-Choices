@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color:antiquewhite;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 150px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.nav--icon {
+    height: 130px;
+    margin-right: 30px;
+}
+
+.main_section{
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/background.jpg);
+    height: 779px;
+    background-repeat: no-repeat;
+}
+
+.main_title {
+    margin: 0;
+    color:black ;
+    letter-spacing: -0.05em;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
+.main_sec_list {
+    margin-top: 46px;
+}
+
+.main_sec_list > li {
+    color: black;
+    line-height: 25px;
+    padding-block: 15px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.main_sec_list > li::marker {
+    font-size: 1.6rem;
+    color:tomato;
+}
+
+.body_section{
+    text-align: center;
+}
+
+.title_div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    background-color: #21222A;
+    font-family: Inter, sans-serif;
+    font-size: medium;
+}
+
+.image_div{
+    padding-top: 80px;
+    width: 100%;
+    float: left;
+    width: 33.3333333%;
+    padding-bottom: 80px;
+}
+
+.body_image1{
+    height: 650px;
+}
+
+.price{
+    font-size: small;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sauvage_title{
+    font-size: 120px;
+    padding-bottom: 1%;
+}
+
+.sauvage_div{
+    padding-top: 10%;
+    color: #DEEBF8;
+    background-color: black;
+    padding-bottom: 10%;
+}
+
+.sauvage_quote{
+    padding-bottom: 2%;
+}
+
+.sauvage_prod{
+    padding-top: 7%;
+    float: left;
+    width: 50%;
+    background-color: #21222A;
+    padding-bottom: 40px;
+}
+
+.sauvage_image{
+    height: 750px;
+}
+
+.the_sauvage{
+    width: 1850px;
+}
+
+.Footer{
+    background-color:lightpink;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(93, 74, 8);
+}
+
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none; /* Make the overlay and button not clickable by default */
+  }
+  
+  .button {
+    padding: 30px 50px;
+    font-size: 30px;
+    background-color: transparent;
+    font-weight: 800;
+    color: white;
+    border: 2px solid white; /* Add border property to set the border width and color */
+    border-radius: 50px;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+    .video-element{
+        width: 1870px;
+    }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .travis{
+    background-color:darkslategrey;
+    padding-top: 80px;
+    width: 100%;
+    float: left;
+    width: 50%;
+    padding-bottom: 80px;
+  }
+  
+  .the_scott{
+    width: 850px;
+  }
+
+  .air_dior{
+    background-color: slategrey;
+  }
+
+  .air_logo{
+    padding-top: 2%;
+    width: 700px;
+  }
+
+  .air_quote{
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+  }
+
+  .air_talk{
+    color:lavender;
+    padding-bottom: 2%;
+  }
+
+
+  .overlay1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 220%);
+    text-align: center;
+    pointer-events: none; /* Make the overlay and button not clickable by default */
+  }
+
+  .button1 {
+    padding: 30px 50px;
+    font-size: 30px;
+    background-color: transparent;
+    font-weight: 800;
+    color:black;
+    border: 2px solid white; /* Add border property to set the border width and color */
+    border-radius: 50px;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .button1:hover {
+    background-color:black;
+    color: white;
+  }
+
+  .Final{
+    background-image: url(./images/gucci.jpg);
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(93, 74, 8);
+  }
+
+  .main_title1 {
+    margin: 0;
+    color:black ;
+    letter-spacing: -0.05em;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    padding-top: 240px;
+    padding-left: 750px;
+}
